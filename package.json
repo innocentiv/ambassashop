@@ -4,5 +4,8 @@
     "ui",
     "api",
     "database"
-  ]
+  ],
+  "resolutions": {
+    "@storybook/react/babel-loader": "8.1.0"
+  }
 }
