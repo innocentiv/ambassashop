@@ -1,4 +1,8 @@
-import { convertPrice, currencyFromCode, formatPrice } from '../prices';
+import {
+  convertPrice,
+  currencyFromCode,
+  formatPrice,
+} from '../src/libs/prices';
 
 const rates = {
   EUR: 1,
