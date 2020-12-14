@@ -7,7 +7,7 @@ import { useCurrency } from "../components/selectCurrency/useCurrency";
 
 interface HomeProps {}
 
-const Layout = tw.div`w-full h-full bg-gray-500	`;
+const Layout = tw.div`w-full h-full bg-gray-500 overflow-y-auto`;
 
 export const Home: FC<HomeProps> = () => {
   const { data } = useCurrencies();

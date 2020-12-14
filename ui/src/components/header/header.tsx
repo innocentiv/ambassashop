@@ -7,7 +7,7 @@ import {
   SelectCurrencyProps,
 } from "../selectCurrency/selectCurrency";
 
-const HeaderContainer = tw.header`bg-white shadow-sm sticky top-0`;
+const HeaderContainer = tw.header`bg-white shadow-sm sticky top-0 z-10`;
 
 const WidthContainer = tw.div`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4`;
 
