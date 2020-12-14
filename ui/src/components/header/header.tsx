@@ -9,7 +9,7 @@ import {
 
 const HeaderContainer = tw.header`bg-white shadow-sm sticky top-0`;
 
-const WidthContainer = tw.div`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1 md:py-4`;
+const WidthContainer = tw.div`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4`;
 
 const NavContainer = tw.div`flex items-center justify-between`;
 

@@ -12,13 +12,13 @@ export interface ProductListProps {
   products: Product[];
 }
 
-const WidthContainer = tw.div`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1 md:py-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4`;
+const WidthContainer = tw.main`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4`;
 
 export const ProductList: FC<ProductListProps> = ({ products }) => {
   return (
     <WidthContainer>
       {products.map((product) => (
-        <ProductCard key={product.id} product={product} tw="w-1/3" />
+        <ProductCard key={product.id} product={product} tw="mx-auto" />
       ))}
     </WidthContainer>
   );

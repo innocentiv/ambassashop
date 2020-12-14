@@ -12,6 +12,12 @@ const Template: Story<ProductCardProps> = (args) => <ProductCard {...args} />;
 
 export const Primary = Template.bind({});
 
+export const TallImage = Template.bind({});
+
 Primary.args = {
   product: productsMocks[0],
+};
+
+TallImage.args = {
+  product: productsMocks[1],
 };
